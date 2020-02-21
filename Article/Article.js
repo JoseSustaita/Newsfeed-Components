@@ -146,7 +146,7 @@ function componentCreator(title, date, p1, p2, p3) {
   para3.textContent = p3;
   expandSpan.textContent = "Click to Expand";
 
-  expandSpan.addEventListener("click", ({}) => {
+  expandSpan.addEventListener("click", () => {
     article.classList.toggle("article-open");
   });
 
